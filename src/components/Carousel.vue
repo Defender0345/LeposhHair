@@ -2,10 +2,10 @@
    <div class="carousel">
       <slot></slot>
 
-      <button @click="next" class="next">
+      <button @click="next" class="next" aria-label="next on carousel">
          <i class="fas fa-chevron-right"></i>
       </button>
-      <button @click="prev" class="prev">
+      <button @click="prev" class="prev" aria-label="previous on carousel">
          <i class="fas fa-chevron-left"></i>
       </button>
    </div>

@@ -8,13 +8,24 @@
          <nav>
             <ul>
                <li>
-                  <a href="#" aria-label="Takes you to top of page">Home</a>
+                  <a href="/" aria-label="Takes you to top of page">Home</a>
                </li>
                <li>
-                  <a href="#" aria-label="Takes you to about section">About</a>
+                  <a
+                     href="/services"
+                     aria-label="Takes you to the services page"
+                     >Services</a
+                  >
                </li>
                <li>
-                  <a href="#" aria-label="Takes you to contact section"
+                  <a href="/#about-us" aria-label="Takes you to about section"
+                     >About</a
+                  >
+               </li>
+               <li>
+                  <a
+                     href="/#contact-us"
+                     aria-label="Takes you to contact section"
                      >Contact</a
                   >
                </li>
@@ -84,6 +95,10 @@ export default {
 
       .logo {
          font-size: 1.5em;
+      }
+
+      a {
+         padding: 10px 10px;
       }
    }
 }

@@ -1,86 +1,90 @@
 <template>
-   <!-- Hero Section -->
-   <div class="hero" :style="cssProps">
-      <div class="content">
-         <h1>
-            <span class="text-primary"><i class="fas fa-cut"></i>Le Posh</span>
-            Hair Design
-         </h1>
-         <p>Contact us now to make an appointment</p>
-         <a
-            href="#contact"
-            class="btn"
-            aria-label="Takes you to contact section"
-            ><i class="fas fa-chevron-right"></i>Contact Us</a
-         >
+   <div>
+      <!-- Hero Section -->
+      <div class="hero" :style="cssProps">
+         <div class="content">
+            <h1>
+               <span class="text-primary"
+                  ><i class="fas fa-cut"></i>Le Posh</span
+               >
+               Hair Design
+            </h1>
+            <p>Contact us now to make an appointment</p>
+            <a
+               href="#contact"
+               class="btn"
+               aria-label="Takes you to contact section"
+               ><i class="fas fa-chevron-right"></i>Contact Us</a
+            >
+         </div>
       </div>
-   </div>
 
-   <!-- Services Section -->
-   <section class="services">
-      <div class="flex-items">
-         <div>
-            <i class="fas fa-cut main-icons"></i>
+      <!-- Services Section -->
+      <section class="services">
+         <div class="flex-items">
             <div>
-               <h3>HAIR DESIGN</h3>
+               <i class="fas fa-cut main-icons"></i>
+               <div>
+                  <h3>HAIR DESIGN</h3>
+                  <p>
+                     Cutting, colouring, Brazilian, Botox, highlights, ombrė &
+                     balayage.
+                  </p>
+               </div>
+            </div>
+            <div>
+               <i class="fas fa-hot-tub main-icons"></i>
+               <div>
+                  <h3>BEAUTICIAN</h3>
+                  <p>Qualified beautician for all your relaxing needs!</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Working Hours Section -->
+      <section class="hours">
+         <div class="heading">
+            <h2>WHEN ARE WE OPEN?</h2>
+         </div>
+         <div class="bg-primary">
+            <TimeCard />
+         </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section id="about-us" class="about-us">
+         <div class="column">
+            <div class="text">
+               <h2>About Us</h2>
                <p>
-                  Cutting, colouring, Brazilian, Botox, highlights, ombrė &
-                  balayage.
+                  LePosh Hair Design loves providing all kinds of modern and
+                  innovative services in haircare and personal grooming. We love
+                  to offer a friendly yet proffesional enviroment where everyone
+                  feels at home. We strive to give every customer a personal
+                  experience which reflects their own personality!
                </p>
             </div>
+            <carousel @next="next" @prev="prev" class="carousel">
+               <carousel-slide
+                  v-for="(slide, index) in slides"
+                  :key="slide"
+                  :index="index"
+                  :visibleSlide="visibleSlide"
+                  :direction="direction"
+               >
+                  <img :src="slide" alt="Images of Previous Hair done" />
+               </carousel-slide>
+            </carousel>
          </div>
-         <div>
-            <i class="fas fa-hot-tub main-icons"></i>
-            <div>
-               <h3>BEAUTICIAN</h3>
-               <p>Qualified beautician for all your relaxing needs!</p>
-            </div>
-         </div>
-      </div>
-   </section>
+      </section>
 
-   <!-- Working Hours Section -->
-   <section class="hours">
-      <div class="heading">
-         <h2>WHEN ARE WE OPEN?</h2>
-      </div>
-      <div class="bg-primary">
-         <TimeCard />
-      </div>
-   </section>
+      <!-- Products Section -->
+      <Products />
 
-   <!-- About Us Section -->
-   <section class="about-us">
-      <div class="column">
-         <div class="text">
-            <h2>About Us</h2>
-            <p>
-               LePosh Hair Design loves providing all kinds of modern and
-               innovative services in haircare and personal grooming. We love to
-               offer a friendly yet proffesional enviroment where everyone feels
-               at home. We strive to give every customer a personal experience
-               which reflects their own personality!
-            </p>
-         </div>
-         <carousel @next="next" @prev="prev" class="carousel">
-            <carousel-slide
-               v-for="(slide, index) in slides"
-               :key="slide"
-               :index="index"
-               :visibleSlide="visibleSlide"
-               :direction="direction"
-            >
-               <img :src="slide" alt="Images of Previous Hair done" />
-            </carousel-slide>
-         </carousel>
-      </div>
-   </section>
-
-   <!-- Products Section -->
-   <Products />
-
-   <!-- Contact Us Section -->
-   <ContactUs />
+      <!-- Contact Us Section -->
+      <ContactUs id="contact-us" />
+   </div>
 </template>
 
 <script>

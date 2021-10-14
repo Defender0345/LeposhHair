@@ -56,7 +56,7 @@ export default {
       justify-content: space-around;
 
       img {
-         width: 250px;
+         width: 300px;
          height: 250px;
 
          &:hover {
