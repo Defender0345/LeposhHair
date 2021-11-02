@@ -1,28 +1,37 @@
 <template>
-   <footer class="footer bg-dark">
-      <div class="social">
-         <a
-            href="https://www.facebook.com/Le-Posh-Hair-Design-179219152818855"
-            target="_blank"
-            rel="”noopener”"
-            aria-label="Link to facebook page"
-            ><i class="fab fa-facebook fa-2x"></i
-         ></a>
-         <a
-            href="https://www.instagram.com/hairleposh/"
-            target="_blank"
-            rel="”noopener”"
-            aria-label="link to instagram page"
-            ><i class="fab fa-instagram fa-2x"></i
-         ></a>
-      </div>
-      <p>Copyright &copy; 2021 - Le Posh Hair Design</p>
-   </footer>
+  <footer class="footer bg-dark">
+    <div class="social">
+      <a
+        href="https://www.facebook.com/Le-Posh-Hair-Design-179219152818855"
+        target="_blank"
+        rel="”noopener”"
+        aria-label="Link to facebook page"
+        ><i class="fab fa-facebook fa-2x"></i
+      ></a>
+      <a
+        href="https://www.instagram.com/hairleposh/"
+        target="_blank"
+        rel="”noopener”"
+        aria-label="link to instagram page"
+        ><i class="fab fa-instagram fa-2x"></i
+      ></a>
+    </div>
+    <p>Copyright &copy; 2021 - Le Posh Hair Design</p>
+    <a href="#" class="drn-logo">
+      <img :src="dnrlogo" alt="DNR Software Logo" />
+    </a>
+  </footer>
 </template>
 
 <script>
 export default {
-   name: 'Footer',
+  name: 'Footer',
+
+  data() {
+    return {
+      dnrlogo: require('@/assets/Images/DRN-logo-white.png'),
+    };
+  },
 };
 </script>
 
@@ -31,24 +40,28 @@ export default {
 @import '@/assets/_shared.scss';
 
 .footer {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   text-align: center;
-   justify-content: center;
-   height: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  padding: 1em;
 
-   a {
-      color: #fff;
+  a {
+    color: #fff;
 
-      &:hover {
-         color: $primary;
-      }
-   }
+    &:hover {
+      color: $primary;
+    }
+  }
 
-   .social > * {
-      margin: auto;
-      padding: 30px;
-   }
+  .social > * {
+    margin: 1em;
+    padding: 30px;
+  }
+
+  .drn-logo {
+    cursor: pointer;
+  }
 }
 </style>
