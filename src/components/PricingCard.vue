@@ -163,7 +163,7 @@
       <span class="header">Extras</span>
       <div class="container">
         <div class="services">
-          <p>Treatment Cat</p>
+          <p>Treatment Cut</p>
           <p>Intense Treatment</p>
           <p>Sealer</p>
           <p>Silver Shampoo</p>

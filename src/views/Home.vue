@@ -8,7 +8,10 @@
           Hair Design
         </h1>
         <p>Contact us now to make an appointment</p>
-        <a href="#contact" class="btn" aria-label="Takes you to contact section"
+        <a
+          href="#contact-us"
+          class="btn"
+          aria-label="Takes you to contact section"
           ><i class="fas fa-chevron-right"></i>Contact Us</a
         >
       </div>
@@ -78,6 +81,9 @@
     <!-- Products Section -->
     <Products />
 
+    <!-- Teams -->
+    <Team />
+
     <!-- Contact Us Section -->
     <ContactUs id="contact-us" />
   </div>
@@ -88,6 +94,7 @@ import TimeCard from '@/components/TimeCard.vue';
 import Carousel from '@/components/Carousel.vue';
 import CarouselSlide from '@/components/CarouselSlide.vue';
 import Products from '@/components/Products.vue';
+import Team from '@/components/Team.vue';
 import ContactUs from '@/components/ContactUs.vue';
 
 export default {
@@ -97,6 +104,7 @@ export default {
     Carousel,
     CarouselSlide,
     Products,
+    Team,
     ContactUs,
   },
 
@@ -208,11 +216,15 @@ export default {
   .flex-items {
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 100%;
+    padding: 2em;
 
     div {
-      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
       .main-icons {
         background-color: white;

@@ -17,7 +17,7 @@
       ></a>
     </div>
     <p>Copyright &copy; 2021 - Le Posh Hair Design</p>
-    <a href="#" class="drn-logo">
+    <a href="www.drnsoftware.com" class="drn-logo">
       <img :src="dnrlogo" alt="DNR Software Logo" />
     </a>
   </footer>
@@ -40,6 +40,7 @@ export default {
 @import '@/assets/_shared.scss';
 
 .footer {
+  position: relative;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -62,6 +63,21 @@ export default {
 
   .drn-logo {
     cursor: pointer;
+    position: absolute;
+    right: 3%;
+
+    img {
+      max-height: 70px;
+      max-width: 100px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    .drn-logo {
+      position: unset;
+    }
   }
 }
 </style>

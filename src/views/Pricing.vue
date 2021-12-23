@@ -12,7 +12,7 @@
 import PricingCard from '@/components/PricingCard';
 
 export default {
-  name: 'Services',
+  name: 'Pricing',
 
   components: {
     PricingCard,

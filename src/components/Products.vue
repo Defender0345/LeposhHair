@@ -50,6 +50,7 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     img {
       width: 300px;
