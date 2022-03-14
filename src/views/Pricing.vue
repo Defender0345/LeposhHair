@@ -35,7 +35,7 @@ export default {
 
   .devider {
     height: 100px;
-    width: 100vw;
+    width: 100%;
     color: white;
   }
 
