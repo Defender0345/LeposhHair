@@ -1,6 +1,10 @@
 <template>
   <div class="services">
     <div class="devider"></div>
+    <!-- Specials banner -->
+    <div class="heading red">
+      <h2>RETIREE DISCOUNT ON WEDNESDAYS!</h2>
+    </div>
     <span>Please note: Prices may vary</span>
     <div>
       <PricingCard />
@@ -40,6 +44,22 @@ export default {
     text-align: center;
     font-size: 2em;
     font-weight: bold;
+  }
+
+  // Specials banner
+  .red {
+    background: $primary !important;
+  }
+  .heading {
+    text-align: center;
+    align-items: center;
+    background: $accent;
+    color: white;
+    padding: 2em;
+
+    h2 {
+      letter-spacing: 1px;
+    }
   }
 }
 </style>

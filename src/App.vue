@@ -37,6 +37,7 @@ body {
   background: white;
   color: #333;
   line-height: 1.6;
+
   ul {
     list-style: none;
   }

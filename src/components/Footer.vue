@@ -17,7 +17,11 @@
       ></a>
     </div>
     <p>Copyright &copy; 2021 - Le Posh Hair Design</p>
-    <a href="www.drnsoftware.com" class="drn-logo">
+    <a
+      href="https://www.drnsoftware.com"
+      class="drn-logo"
+      aria-label="link to DRN Software Page"
+    >
       <img :src="dnrlogo" alt="DNR Software Logo" />
     </a>
   </footer>

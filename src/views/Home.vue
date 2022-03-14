@@ -16,6 +16,10 @@
         >
       </div>
     </div>
+    <!-- Specials banner -->
+    <div class="heading red">
+      <h2>RETIREE DISCOUNT ON WEDNESDAYS!</h2>
+    </div>
 
     <!-- Services Section -->
     <section class="services">
@@ -82,7 +86,7 @@
     <Products />
 
     <!-- Teams -->
-    <Team />
+    <!-- <Team /> -->
 
     <!-- Contact Us Section -->
     <ContactUs id="contact-us" />
@@ -94,7 +98,7 @@ import TimeCard from '@/components/TimeCard.vue';
 import Carousel from '@/components/Carousel.vue';
 import CarouselSlide from '@/components/CarouselSlide.vue';
 import Products from '@/components/Products.vue';
-import Team from '@/components/Team.vue';
+// import Team from '@/components/Team.vue';
 import ContactUs from '@/components/ContactUs.vue';
 
 export default {
@@ -104,7 +108,7 @@ export default {
     Carousel,
     CarouselSlide,
     Products,
-    Team,
+    // Team,
     ContactUs,
   },
 
@@ -247,14 +251,18 @@ export default {
   }
 }
 
-// Working Hours Section
-.hours {
-  .heading {
-    text-align: center;
-    align-items: center;
-    background: $accent;
-    color: white;
-    padding: 2em;
+.red {
+  background: $primary !important;
+}
+.heading {
+  text-align: center;
+  align-items: center;
+  background: $accent;
+  color: white;
+  padding: 2em;
+
+  h2 {
+    letter-spacing: 1px;
   }
 }
 

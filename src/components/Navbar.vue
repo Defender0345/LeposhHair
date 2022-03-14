@@ -48,7 +48,8 @@ export default {
   background: $accent;
   color: white;
   opacity: 0.8;
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
   height: 100px;
   position: fixed;
   top: 0px;
