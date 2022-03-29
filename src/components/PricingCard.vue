@@ -13,13 +13,13 @@
           <p>Boys High School / Students</p>
         </div>
         <div class="prices">
-          <p>R90</p>
-          <p>R120</p>
-          <p>R200</p>
-          <p>R150</p>
-          <p>R230</p>
           <p>R100</p>
+          <p>R130</p>
+          <p>R210</p>
+          <p>R160</p>
+          <p>R240</p>
           <p>R110</p>
+          <p>R120</p>
         </div>
       </div>
     </div>
@@ -32,8 +32,8 @@
           <p>Shave</p>
         </div>
         <div class="prices">
-          <p>R130</p>
-          <p>R100</p>
+          <p>R135</p>
+          <p>R110</p>
         </div>
       </div>
     </div>
@@ -43,60 +43,62 @@
       <div class="container">
         <div class="services">
           <p>Cut Only</p>
-          <p class="bold">Cut / BW: Short</p>
-          <p>Medium</p>
-          <p>Long</p>
-          <p class="bold">BW: Short</p>
-          <p>Medium</p>
-          <p>Long</p>
-          <p>Straightner</p>
+          <p>Cut / BW: Short</p>
+          <p>Cut / BW: Medium</p>
+          <p>Cut / BW: Long</p>
+          <p>BW: Short</p>
+          <p>BW: Medium</p>
+          <p>BW: Long</p>
+          <p>Straightner with blowave</p>
+          <p>Straightner only</p>
         </div>
         <div class="prices">
-          <p>R230</p>
+          <p>R240</p>
           <p>R290</p>
-          <p>R</p>
-          <p>R300</p>
-          <p>R160</p>
+          <p>R310</p>
+          <p>R340</p>
           <p>R170</p>
           <p>R180</p>
-          <p>R60</p>
+          <p>R190</p>
+          <p>R70</p>
+          <p>R90</p>
         </div>
       </div>
     </div>
     <div class="card">
-      <span class="header">Mini Foils</span>
+      <span class="header">Foils</span>
       <div class="container">
         <div class="services">
-          <p class="bold">10 x Foils: Short</p>
-          <p>Medium</p>
-          <p>Long</p>
-          <p class="bold">Per Foil: Short</p>
-          <p>Medium</p>
-          <p>Long</p>
-          <p class="bold">Full Head Foils: Short</p>
-          <p>Medium</p>
-          <p>Long</p>
-          <p>Extra Length</p>
-          <p class="bold">Half Head Foils: Short</p>
-          <p>Medium</p>
-          <p>Long</p>
-          <p>Extra Length</p>
+          <p>10 x Foils: Short</p>
+          <p>10 x Foils: Medium</p>
+          <p>10 x Foils: Long</p>
+          <p>Per Foil: Short</p>
+          <p>Per Foil: Medium</p>
+          <p>Per Foil: Long</p>
+          <p>Full Head Foils: Short</p>
+          <p>Full Head Foils: Medium</p>
+          <p>Full Head Foils: Long</p>
+          <p>Full Head Foils: Extra Length</p>
+          <p>Half Head Foils: Short</p>
+          <p>Half Head Foils: Medium</p>
+          <p>Half Head Foils: Long</p>
+          <p>Half Head Foils: Extra Length</p>
         </div>
         <div class="prices">
-          <p>R295</p>
-          <p>R335</p>
-          <p>R395</p>
-          <p>R45</p>
-          <p>R50</p>
+          <p>R305</p>
+          <p>R345</p>
+          <p>R405</p>
           <p>R55</p>
-          <p>R580</p>
-          <p>R660</p>
-          <p>R800</p>
-          <p>R800+</p>
-          <p>R550</p>
-          <p>R610</p>
-          <p>R700</p>
-          <p>R700+</p>
+          <p>R60</p>
+          <p>R65</p>
+          <p>R590</p>
+          <p>R670</p>
+          <p>R810</p>
+          <p>R810+</p>
+          <p>R560</p>
+          <p>R620</p>
+          <p>R710</p>
+          <p>R710+</p>
         </div>
       </div>
     </div>
@@ -111,17 +113,17 @@
           <p>Extra Length</p>
           <p>Shades</p>
           <p>Colour Correction</p>
-          <p>T Hairline Tint</p>
+          <p>T-Hairline Tint</p>
         </div>
         <div class="prices">
-          <p>R395</p>
-          <p>R405</p>
-          <p>R505</p>
-          <p>R705</p>
-          <p>R705+</p>
-          <p>R240</p>
-          <p>R1300+</p>
-          <p>R200</p>
+          <p>R440</p>
+          <p>R440</p>
+          <p>R520</p>
+          <p>R720</p>
+          <p>R750+</p>
+          <p>R250</p>
+          <p>R1350+</p>
+          <p>R220</p>
         </div>
       </div>
     </div>
@@ -136,16 +138,16 @@
           <p>Upstyle</p>
         </div>
         <div class="prices">
-          <p>R600</p>
-          <p>R700</p>
-          <p>R800</p>
+          <p>R610</p>
+          <p>R710</p>
+          <p>R810</p>
           <p>R900+</p>
           <p>R390</p>
         </div>
       </div>
     </div>
     <div class="card">
-      <span class="header">Dulcia Perms</span>
+      <span class="header">Unda Soft Perms</span>
       <div class="container">
         <div class="services">
           <p>Half Head</p>
@@ -153,9 +155,43 @@
           <p>Full Head Long</p>
         </div>
         <div class="prices">
-          <p>R435</p>
-          <p>R535</p>
+          <p>R445</p>
+          <p>R545</p>
           <p>R725+</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <span class="header">Botox</span>
+      <div class="container">
+        <div class="services">
+          <p>Short</p>
+          <p>Medium</p>
+          <p>Long</p>
+          <p>Extra Long</p>
+        </div>
+        <div class="prices">
+          <p>R360</p>
+          <p>R460</p>
+          <p>R560</p>
+          <p>R660</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <span class="header">Set / Curlers</span>
+      <div class="container">
+        <div class="services">
+          <p>Short</p>
+          <p>Medium</p>
+          <p>Long</p>
+          <p>Extra Length</p>
+        </div>
+        <div class="prices">
+          <p>R170</p>
+          <p>R180</p>
+          <p>R190</p>
+          <p>R200</p>
         </div>
       </div>
     </div>
@@ -163,16 +199,16 @@
       <span class="header">Extras</span>
       <div class="container">
         <div class="services">
-          <p>Treatment Cut</p>
+          <p>Treatment Cat</p>
           <p>Intense Treatment</p>
           <p>Sealer</p>
           <p>Silver Shampoo</p>
         </div>
         <div class="prices">
-          <p>R140</p>
-          <p>R140</p>
-          <p>R50</p>
-          <p>R20</p>
+          <p>R160</p>
+          <p>R160</p>
+          <p>R70</p>
+          <p>R30</p>
         </div>
       </div>
     </div>

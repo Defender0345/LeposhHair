@@ -1,12 +1,30 @@
 <template>
-  <form>
+  <form
+    name="ask-question"
+    netlify
+    method="post"
+    data-netlify-honeypot="bot-field"
+  >
+    <input type="hidden" name="form-name" value="ask-question" />
     <h2>Contact Us</h2>
     <div class="text-fields">
-      <input type="text" class="text-input" placeholder="Name" />
-      <input type="text" class="text-input" placeholder="Subject" />
-      <input type="text" class="text-input" placeholder="Phone Number" />
+      <input name="name" type="text" class="text-input" placeholder="Name" />
+      <input
+        name="subject"
+        type="text"
+        class="text-input"
+        placeholder="Subject"
+      />
+      <input
+        name="phone"
+        type="text"
+        class="text-input"
+        placeholder="Cell Number or Email"
+      />
     </div>
-    <button type="submit" class="btn-dark">SEND EMAIL</button>
+    <button type="submit" @click="submitForm" class="btn-dark">
+      SEND MESSAGE
+    </button>
   </form>
 </template>
 

@@ -53,7 +53,7 @@ export default {
   height: 100px;
   position: fixed;
   top: 0px;
-  padding: 0 0px;
+  padding: 0 30px;
   transition: 0.5s;
   z-index: 999;
 
