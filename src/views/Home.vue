@@ -29,7 +29,7 @@
           <div>
             <h3>HAIR DESIGN</h3>
             <p>
-              Cutting, colouring, Brazilian, Botox, highlights, ombrė &
+              Cutting, colouring, Brazilian, Botox, Perms, Highlights, ombrė &
               balayage.
             </p>
           </div>
@@ -124,6 +124,15 @@ export default {
         require('@/assets/Images/cases/cases3.webp'),
         require('@/assets/Images/cases/cases4.webp'),
         require('@/assets/Images/cases/cases5.webp'),
+        require('@/assets/Images/cases/cases6.webp'),
+        require('@/assets/Images/cases/cases7.webp'),
+        require('@/assets/Images/cases/cases8.webp'),
+        require('@/assets/Images/cases/cases9.webp'),
+        require('@/assets/Images/cases/cases10.webp'),
+        require('@/assets/Images/cases/cases11.webp'),
+        require('@/assets/Images/cases/cases12.webp'),
+        require('@/assets/Images/cases/cases13.webp'),
+        require('@/assets/Images/cases/cases14.webp'),
       ],
       visibleSlide: 0,
       direction: 'left',
