@@ -62,9 +62,9 @@
           <p>
             LePosh Hair Design loves providing all kinds of modern and
             innovative services in haircare and personal grooming. We love to
-            offer a friendly yet proffesional enviroment where everyone feels at
-            home. We strive to give every customer a personal experience which
-            reflects their own personality!
+            offer a friendly yet professional environment where everyone feels
+            at home. We strive to give every customer a personal experience
+            which reflects their own personality!
           </p>
         </div>
         <carousel @next="next" @prev="prev" class="carousel">
@@ -81,6 +81,7 @@
         </carousel>
       </div>
     </section>
+    <Juliet />
 
     <!-- Products Section -->
     <Products />
@@ -99,6 +100,7 @@ import Carousel from '@/components/Carousel.vue';
 import CarouselSlide from '@/components/CarouselSlide.vue';
 import Products from '@/components/Products.vue';
 // import Team from '@/components/Team.vue';
+import Juliet from '@/components/Juliet.vue';
 import ContactUs from '@/components/ContactUs.vue';
 
 export default {
@@ -108,6 +110,7 @@ export default {
     Carousel,
     CarouselSlide,
     Products,
+    Juliet,
     // Team,
     ContactUs,
   },

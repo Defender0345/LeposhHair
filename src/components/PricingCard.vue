@@ -4,11 +4,11 @@
       <span class="header">Kids / Students</span>
       <div class="container">
         <div class="services">
-          <p>Baby / Todler</p>
+          <p>Baby / Toddler</p>
           <p>Girls Primary School Cut</p>
-          <p>Cut & Blowdry</p>
+          <p>Cut & Blow-dry</p>
           <p>Girls Highschool Cut</p>
-          <p>Cut & Blowdry</p>
+          <p>Cut & Blow-dry</p>
           <p>Boys Primary Cut</p>
           <p>Boys High School / Students</p>
         </div>
@@ -49,8 +49,8 @@
           <p>BW: Short</p>
           <p>BW: Medium</p>
           <p>BW: Long</p>
-          <p>Straightner with blowave</p>
-          <p>Straightner only</p>
+          <p>Straightener with blow wave</p>
+          <p>Straightener only</p>
         </div>
         <div class="prices">
           <p>R240</p>
